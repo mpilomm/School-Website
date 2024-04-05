@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, nav, main, footer {
+    padding: 10px;
+  }
+  
+  header {
+    background-color: #d8e6e8;
+    color: rgb(35, 28, 28);
+    text-align: center;
+  }
+
+  .logo{
+    max-width: 100px;
+    padding-left: 600px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #000;
+  }
+  
+  footer {
+    background-color: 	#d8e6e8;
+    color: rgb(35, 28, 28);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #home {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .hero {
+    margin-bottom: 50px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .feature2{
+    width: 30%;
+    padding: 25px;
+    background-color: #a6184a;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .feature3 {
+    width: 30%;
+    padding: 25px;
+    background-color: #becc25;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .feature {
+    width: 30%;
+    padding: 25px;
+    background-color: #338fc0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 1.1em;
+  }
+
+  .student-info {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .student-info h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .student-info p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
